@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+   /* background-color: #344fa1; */
+    background-image:url("https://images.pexels.com/photos/4734929/pexels-photo-4734929.jpeg?auto=compress&cs=tinysrgb&w=600");
+    width: 100%;
+}
+
+.main{
+    margin: auto;
+    width: 100%;
+    padding: 30px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .input-container #note{
+    height: 40px;
+    width: 280px;
+    border-radius: 20px;
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    outline: none;
+  }
+
+  .input-container #button{
+    padding: 1.8vh 2vw;
+    border-radius: 15px;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: hotpink;
+    color: white;
+
+  }
+
+.main h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+/* card time */
+
+#todo-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr))
+}
+
+.container{
+    display: inline-block;
+    margin-left: 10px;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 20px;
+    background-color: blueviolet;
+    color:gold;
+    border-radius: 10px;
+}
+
+.container button{
+    display: block;
+    padding: 2vh 2vw;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.container .mrk{
+    background-color: green;
+    color: white;
+}
+
+.container p{
+    margin-bottom: 10px;
+}
+
+.container .my-note{
+    font-size: 30px;
+}
